@@ -1,0 +1,79 @@
+.yeah {
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.yeah div {
+    flex-grow: 1;
+    background-color: grey;
+    height: 50px;
+}
+
+.no {
+    display: flex;
+    background-color: skyblue;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 15px;
+}
+
+.no div {
+    flex-grow: 1;
+    background-color: grey;
+    height: 50px;
+}
+
+.maybe {
+    display: flex;
+    flex-direction: row;
+    background-color: orchid;
+    justify-content: space-between;
+    padding: 12px;
+    gap: 12px;
+}
+
+.maybe div {
+    flex-grow: 1;
+    background-color: grey;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.maybe .double {
+    flex-grow: 2;
+}
+
+.ok {
+    display: flex;
+    flex-direction: row;
+    background-color: royalblue;
+    justify-content: space-between;
+    padding: 12px;
+    gap: 12px;
+}
+
+.ok div {
+    flex-grow: 1;
+    background-color: grey;
+    border: 2px solid black;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: royalblue;
+    padding: 0 12px 12px;
+    gap: 12px;
+}
+
+footer div {
+    flex-grow: 1;
+    background-color: grey;
+    border: 2px solid black;
+    height: 50px;
+}
